@@ -1,2 +1,2 @@
 # guitarStar
-Basic app landing page layout
+Basic app landing page layout with CSS
