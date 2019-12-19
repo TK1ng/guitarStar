@@ -1,0 +1,103 @@
+body, a, p {
+ font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-weight: 900;
+  font-size: 1.8
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.nav{
+  background: black;
+  color: white;
+  opacity: .9;
+}
+
+.landscape-image{
+  background-color:black;
+  padding-top: 8%;
+  margin:0;
+}
+
+.guitar {
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 27rem;
+  margin: 0;
+}
+
+#features {
+  padding: 7% 10%;
+  margin:0;
+}
+
+.media {
+  width: 40%;
+  margin: auto;
+}
+
+.icon {
+  padding-bottom: 5%;
+}
+
+.icon:hover {
+  color: #d79052;
+}
+
+
+#pricing {
+  text-align: center;
+  padding: 7% 10%;
+}
+
+.sign-up{
+  background-color: black;
+  padding: 7% 10%;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.newsletter{
+  padding: 7% 10%;
+  text-align: center;
+  background-color:light-grey;
+}
+
+.connect{
+  text-align: center;
+  padding: 1%;
+}
+
+#features{
+  text-align: center;
+}
+
+#header-img{
+  width: 2.5%;
+  margin-right: 1%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 1000px){
+  #features{
+    text-align: center;
+  }
+}
